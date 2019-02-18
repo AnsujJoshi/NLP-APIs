@@ -21,6 +21,10 @@ DISCLAIMER : To run this repo you need to have a google cloud account.
 git clone https://github.com/AnsujJoshi/NLP-APIs.git
 ```
 - Go into the diectory
+- Provide service account key of your project
+```
+export GOOGLE_APPLICATION_CREDENTIALS=<path of your service account json>
+```
 - Run the main file
 ```python
 python main.py
